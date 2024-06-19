@@ -4,6 +4,10 @@ compile_sass = true
 
 build_search_index = true
 
+taxonomies = [
+    { name = "Tutorials", feed = true}
+]
+
 [markdown]
 highlight_code = true
 
@@ -54,3 +58,6 @@ publish_hold = [
     "/docs/topics/protocol/",
     "/docs/topics/rdd/"
 ]
+
+[extra.taxonomies.tutorials]
+heading = "Documentation"
